@@ -12,10 +12,15 @@
     <link rel="stylesheet" href="css/unicons.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+      <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <!--ICONIFY-->
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
+
 
     <!-- MAIN STYLE -->
     <link rel="stylesheet" href="css/tooplate-style.css">
-    
+
   </head>
   <body>
 
@@ -35,6 +40,9 @@
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
                         <a href="#about" class="nav-link"><span data-hover="About">About</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#expertise" class="nav-link"><span data-hover="Expertise">Expertise</span></a>
                     </li>
                     <li class="nav-item">
                         <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
@@ -70,11 +78,11 @@
                             <span class="mr-2">Hey I'm</span>
                                 <div class="animated-info">
                                     <span class="animated-item">Kumail Raza</span>
-                                    <span class="animated-item">GIS Analyst</span>
-                                    <span class="animated-item">Python Dev</span>
-                                </div>
+                                    <span class="animated-item">GIS Engineer</span>
+                                    <span class="animated-item">Python Developer</span>
+                                  </div>
                         </h1>
-                        <p>I am a GIS Engineer with experience in developing desktop and web applications. I am a hard working programmer with a flair for creating elegant solutions in the least amount of time.</p>
+                        <p>I am a GIS Engineer who specialises in developing desktop and web applications. In other words, I started with spatial data analysis but developed affinity for programming.</p>
                         <div class="custom-btn-group mt-4">
                           <!-- <a href="#" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>
                           <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Get a free quote</a> -->
@@ -92,6 +100,60 @@
         </div>
     </section>
 
+    <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="expertise">
+        <div class="container">
+
+          <div class="row">
+              <div class="col-sm text-center">
+                <h2>My Expertise</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-9 col-sm service">
+                  <div class="col-xs-2 icon text-center" ><img style="height: auto; max-width: 50%;" src="images/Logo/sw-dev.jpg" alt="Software Development"></div>
+                  <div class="col-xs-10 description text-center"><h3>Software Development</h3>
+                      <p>Experienced in both functional and OOP: Python, JavaScript, TypeScript, C++.<br></p>
+                  </div>
+                </div>
+                <div class="col-xs-9 col-sm service">
+                  <div class="col-xs-2 icon text-center" ><img style="height: auto; max-width: 50%;" src="images/Logo/server-side.jpg" alt="Django Python"></div>
+                  <div class="col-xs-10 description text-center"><h3>Backend Dev</h3>
+                      <p>Passionate about backend development. Versatile experience with Django | Python : Authentication, Serialization, Filtering, + RESTFUL API Development for CRUD Operations<br></p>
+                  </div>
+              </div>
+              <div class="col-xs-9 col-sm service">
+                <div class="col-xs-2 icon text-center" ><img style="height: auto; max-width: 50%;" src="images/Logo/ml.png" alt="Machine Learning"></div>
+                <div class="col-xs-10 description text-center"><h3>Data Analytics</h3>
+                    <p>Data Processing, Analytics, and Visualisation on large amounts of data-sets usign Machine Learning and Deep Learning . <br></p>
+                </div>
+            </div>
+
+          </div>
+
+          <div class="row">
+            <div class="col-xs-9 col-sm service">
+              <div class="col-xs-2 icon text-center" ><img style="height: auto; max-width: 50%;" src="images/Logo/gis.jpg" alt="GIS"></div>
+              <div class="col-xs-10 description text-center"><h3>GIS Programming</h3>
+                  <p>Cleaning, Pre-Processing and Processing Spatial Data for Automating GIS Operations.<br></p>
+              </div>
+          </div>
+            <div class="col-xs-9 col-sm service">
+                <div class="col-xs-2 icon text-center" ><img style="height: auto; max-width: 50%;" src="images/Logo/login.png" alt="Login"></div>
+                <div class="col-xs-10 description text-center"><h3>Front End Dev</h3>
+                    <p>Visualising Spatial data using JavaScript: Leaflet, OpenLayers, Mapbox API. Web based interfaces: HTML, CSS, JS, AJAX<br></p>
+                </div>
+              </div>
+              <div class="col-xs-9 col-sm service">
+                <div class="col-xs-2 icon text-center" ><img style="height: auto; max-width: 50%;" src="images/Logo/download.png" alt="Cesium"></div>
+                <div class="col-xs-10 description text-center"><h3>3D Modelling</h3>
+                    <p>3D Visualisation of Vector and Raster datasets: Cesium js, ESRI City Engine<br></p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+
     <!-- PROJECTS -->
     <section class="project py-5" id="project">
         <div class="container">
@@ -106,9 +168,15 @@
                       <div class="owl-carousel owl-theme">
                         <div class="item">
                           <div class="project-info">
-                            <h7>Cesium Temporal Visualisation</h7>
-                            <p>A visualisation showing how powerful Cesium.js is in 3D globe visualisation and Time Lapse
-                            </p>
+                            <h7>Digital Edge Web Portal</h7>
+                            <p>Backend developed on Django and GeoServer the web portal allows easy visualisation and plotting of data centers and network lines. (<a href="https://geoviz.detest.dev/">Portal</a>)</p>
+                            <img src="images/project/DE.PNG" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="project-info">
+                            <h7>Cesium Visualisation</h7>
+                            <p>A visualisation showing how powerful Cesium.js is in 3D globe visualisation and Time Lapse</p>
                             <img src="images/project/g2.gif" class="img-fluid" alt="project image">
                           </div>
                         </div>
@@ -226,9 +294,9 @@
                 </div>
 
                 <ul class="social-links">
-                     <li><a href="https://www.linkedin.com/in/kumail09/" class="uil uil-external-link-alt" data-toggle="tooltip" data-placement="left" title="LinkedIn"></a></li>
+                     <li><a href="https://www.linkedin.com/in/kumail09/" data-toggle="tooltip" data-placement="left" title="LinkedIn"><span class="iconify" data-icon="uil:linkedin" style="font-size: 25px;"></span></a></li>
                      <li><a href="https://www.instagram.com/kumail.09" class="uil uil-instagram" data-toggle="tooltip" data-placement="left" title="Instagram"></a></li>
-                     <li><a href="https://github.com/Kumail09" class="uil uil-external-link-alt" data-toggle="tooltip" data-placement="left" title="Github"></a></li>
+                     <li><a href="https://github.com/Kumail09" data-toggle="tooltip" data-placement="center" title="Github"> <span class="iconify" data-icon="uil:github"  style="font-size: 25px;"></span></a></li>
                 </ul>
             </div>
           </div>
@@ -237,25 +305,26 @@
             <div class="contact-form">
               <h2 class="mb-4">Interested to work together? Let's talk</h2>
 
-              <!-- <form action="" method="get">
+              <form action="" method="get" >
                 <div class="row">
                   <div class="col-lg-6 col-12">
-                    <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
+                    <input type="text" disabled class="form-control" name="name" placeholder="Your Name" id="name">
                   </div>
 
                   <div class="col-lg-6 col-12">
-                    <input type="email" class="form-control" name="email" placeholder="Email" id="email">
+                    <input type="email" disabled class="form-control" name="email" placeholder="Email" id="email">
                   </div>
 
                   <div class="col-12">
-                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
+                    <textarea name="message" disabled rows="6" class="form-control" id="message" placeholder="Message"></textarea>
                   </div>
 
                   <div class="ml-lg-auto col-lg-5 col-12">
-                    <input type="submit" class="form-control submit-btn" value="Send Button">
+                    <input type="submit" class="form-control submit-btn" value="Send Button" hidden>
                   </div>
                 </div>
-              </form> -->
+              </form>
+
             </div>
           </div>
         </div>
